@@ -1,0 +1,4 @@
+# Ignore sensitive or machine-specific files
+*.env
+*.key
+*.pem
