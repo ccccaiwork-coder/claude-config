@@ -55,5 +55,16 @@
 # 資安規則
 @~/.claude/rules/common/security.md
 
+## Security Rule: External Installation Review
+
+任何外部裝入的外掛、專案、skills、MCP，都需要經由包括 /security-scan 的安全審查，並且報告審查結果給使用者，由使用者批准是否進行最終安裝。
+
+### Details:
+- IMPORTANT: Before installing any external resource (skills, plugins, MCP servers, GitHub repos, scripts), run /security-scan on the content first.
+- Present the full security scan report to the user.
+- Wait for explicit user approval before completing the installation.
+- If the scan finds HIGH or CRITICAL issues, strongly recommend against installation.
+- Never silently install external code without this review process.
+
 ## 敏感資訊輸入提醒
 - IMPORTANT: 當要請使用者輸入包含 API key、token、密碼、Client Secret 等敏感資訊的指令時，必須**事先**提醒使用者不要直接貼在對話框，建議改用 terminal 視窗執行，避免敏感資訊出現在對話記錄中
