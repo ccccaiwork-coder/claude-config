@@ -3,8 +3,8 @@
 *.key
 *.pem
 
-# Company-specific skills (do NOT push to public rules repo)
-skills/patent-search/
-
 # Symlinks pointing outside the repo (would be broken for others)
+# - patent-search → ~/.claude-config-private/skills/patent-search (private repo)
+# - find-skills   → external skill folder
+skills/patent-search
 skills/find-skills
