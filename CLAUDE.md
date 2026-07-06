@@ -5,6 +5,7 @@
 - 每次開始新任務，先在 `~/Desktop/Claude Work/` 建立一個新的子資料夾
 - 子資料夾命名格式：`任務簡述`（例如：`資料分析`）
 - 不要把工作檔案散落在桌面或其他地方
+- 例外：Claude Code 設定檔（agents、skills、rules、CLAUDE.md 等）因系統載入限制必須放在 `~/.claude/`（實體檔在 `~/.claude-config/` repo），不適用本規則
 
 # 回應規則
 
